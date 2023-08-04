@@ -78,7 +78,7 @@
                                 <tbody>
                                 @foreach($user->callSummary as $summary)
                                     <tr>
-                                        <td>{{$summary->date}}</td>
+                                        <td class="text-nowrap">{{$summary->date}}</td>
                                         <td>{{$summary->company}}</td>
                                         <td>{{$summary->contact_person}}</td>
                                         <td>{{$summary->phone_number}}</td>
